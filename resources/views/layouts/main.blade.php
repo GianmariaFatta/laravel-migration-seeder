@@ -7,9 +7,9 @@
     <title>{{env('APP_NAME')}} | @yield('title')</title>
     @vite ('resource/js/app.js')
 </head>
-<body>
+<body class="dropdown" data-bs-theme="dark">
     <header></header>
-    <main>
+    <main class="dropdown" data-bs-theme="dark">
     @yield('content')
     </main>
 </body>
